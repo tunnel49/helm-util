@@ -1,0 +1,8 @@
+apiVersion: v2
+name: util
+description: A Helm chart for Kubernetes
+icon: 
+
+type: library
+version: 0.1.0
+appVersion: 1.16.0
