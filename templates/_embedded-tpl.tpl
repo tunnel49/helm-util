@@ -9,7 +9,7 @@ This takes an array of four elements:
 - the template body
 
 Usage example:
-{{ include "util.embedded-tpl" (list $ "{|" "|}" "template")) }}
+{{ include "util.embedded-tpl" (list $ "{|" "|}" "template") }}
 {{ define "template" }}
 {| .Labels.namespace |}
 {{ end }}
